@@ -2,5 +2,13 @@ body {
   background-image: url("../img/backgrounds/landing.jpg")
 }
 h1 {
-  color: gold;
+  color: white;
+  text-align: center;
+}
+h2 {
+  color: white;
+  text-align: center;
+}
+.menu {
+  float: center;
 }
