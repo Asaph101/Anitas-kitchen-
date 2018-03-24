@@ -1,6 +1,3 @@
-body {
-  background-image: url("../img/backgrounds/landing.jpg")
-}
 h1 {
   color: white;
   text-align: center;
@@ -11,4 +8,7 @@ h2 {
 }
 .menu {
   float: center;
+}
+.container1 {
+  background-image: url("../img/backgrounds/landing.jpg");
 }
