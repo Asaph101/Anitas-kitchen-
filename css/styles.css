@@ -1,14 +1,168 @@
-h1 {
+.head {
   color: white;
   text-align: center;
-}
-h2 {
-  color: white;
-  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
 }
 .menu {
-  float: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container1 {
   background-image: url("../img/backgrounds/landing.jpg");
+  background-size: 1600px;
+  background-position: center;
+}
+.feat{
+  font-family: cursive;
+  font-size: 20px;
+}
+#happy {
+  color: black;
+  background-color: lightgrey;
+  padding-top: 35px;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+}
+#party {
+  color: white;
+  background-color: #F15A29;
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+.brea {
+  background-image: url("../img/foodtop/breakfast.jpg");
+  background-size: cover;
+  padding: 75px;
+  color: white;
+}
+.lunc {
+  background-image: url("../img/foodtop/lunch.jpg");
+  background-size: cover;
+  padding: 75px;
+  color: white;
+}
+.dinn {
+  background-image: url("../img/foodtop/dinner.jpg");
+  background-size: cover;
+  padding: 75px;
+  color: white;
+}
+.container-fluid {
+  font-family: cursive;
+  text-align: center;
+}
+ .brea:hover,
+  .lunc:hover,
+   .dinn:hover {
+  color: black;
+  opacity: 0.7;
+  filter: alpha(opacity=0.7);
+  cursor: pointer;
+}
+h4 {
+  font-size: 30px;
+  font-family: serif;
+}
+h5{
+  font-size: 20px;
+  font-family: serif;
+}
+p2 {
+  font-family: inherit;
+}
+.btn {
+  font-family: sans-serif;
+  color: #F15A29;
+  background-color: white;
+   border: 1px solid #f15A29;
+}
+#fast1 {
+  background-image: url("../img/fastFood1.jpg");
+  padding-top: 65px;
+  padding-bottom: 70px;
+  background-position: center;
+}
+#fast2 {
+  background-image: url("../img/fastFood2.jpg");
+  padding-top: 70px;
+  padding-bottom: 65px;
+  background-position: center;
+}
+.drink1 {
+  background-image: url("../img/drink1.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 100px;
+  padding-bottom: 200px;
+}
+.drink2 {
+  background-image: url("../img/drink2.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 100px;
+  padding-bottom: 200px;
+}
+h6 {
+  font-size: 30px;
+  font-family: serif;
+  text-align: right;
+}
+.container2 {
+  background-image: url("../img/backgrounds/foodsBg.jpg");
+  background-size: 1000px;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  align-items: center;
+}
+#customers {
+  color: #f15A29;
+  font-family: serif;
+  text-align: center;
+  font-size: 20px;
+}
+#George {
+  color: black;
+  font-family: cursive;
+  text-align: center;
+}
+#comment{
+  color: black;
+  font-family: cursive;
+  text-align: center;
+}
+#tomatoes {
+  background-image: url("../img/backgrounds/subscribe.jpg");
+  background-position: center;
+  padding: 100px;
+}
+#email {
+  text-align: center;
+  font-family: cursive;
+  font-size: 30px;
+  color: white;
+}
+#email-btn {
+  cursor: pointer;
+  background-color: #f15A29;
+  color: white;
+  align-self: center;
+}
+#end {
+  background-color: #f15A29;
+  padding: 5px;
+}
+#end-img {
+  color: white;
+  font-family: serif;
+  font-size: 30px;
+  text-align: center;
+}
+#end-1{
+  color: white;
+  font-family: serif;
+  font-size: 15px;
+  text-align: center;
 }
