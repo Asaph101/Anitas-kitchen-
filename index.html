@@ -6,6 +6,8 @@
   <title>Anita's Kitchen</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
 </head>
 
 <body>
@@ -24,9 +26,11 @@
   </div>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-md-3 feat">
-        <p id="happy">Happy Hour</p>
-        <p id="party">Dinner Time</p>
+      <div class="col-sm-3" style="padding-right: 0; padding-left:0;">
+        <div>
+          <p id='happy'>Happy Hour</p>
+          <p id='party'>Dinner Time</p>
+        </div>
       </div>
 
       <div class="col-sm-3 brea">
@@ -66,9 +70,16 @@
         nibh.
       </p2>
 
-      <br />
+      <br>
+      <br>
 
-      <button class="btn" <p>VIEW GALLERY -></p></button>
+      <button class="btn btn-primary">
+          VIEW GALLERY
+          <span>
+            <i class="fas fa-arrow-right"></i>
+          </span>
+
+      </button>
     </div>
     <div class="col-sm-3">
     </div>
@@ -84,15 +95,20 @@
       <h4><strong>Drinks</strong></h4>
       <h5><strong>We also produce delicious drinks</strong></h5>
 
-      <br />
-      <br />
+      <br>
+      <br>
 
       <p3>Praesent hendrerit diam nec metus egestas vestibulum. Fusce finibus lacus et mauris malesuada tempus ornare quis orci. Phasellus ut maximus metus. Ut nec est mi. Maecenas laoreet mauris a placerat condimentum. Integer vitae ligula condimentum eros
         pharetra dapibus eget vel nisi. Proin sit amet mi turpis. Ut sapien massa, feugiat nec malesuada a, porta in nibh. Donec eget massa neque.</p3>
 
-      <br />
-
-      <button class="btn" <p>VIEW GALLERY -></p></button>
+      <br>
+      <br>
+      <button class="btn btn-primary">
+        VIEW GALLERY
+        <span>
+          <i class="fas fa-arrow-right"></i>
+        </span>
+      </button>
     </div>
     <div class="col-sm-1">
     </div>
@@ -178,12 +194,18 @@
       <div id="col-sm-">
       </div>
       <div class="col-sm-12">
-        <div id="email">
+        <div id='email'>
           <p>Get our daily food items delivered to your email</p>
+
         </div>
-        <button id="email-btn">
-          <p>Subscribe</p>
-        </button>
+        <div class="center-form">
+          <div class="form-group col-sm-6 offset-5">
+            <input type="email" name="email" placeholder="Your email" class="form-control">
+          </div>
+          <button id="email-btn" class="btn btn-primary email-btn">
+            Subscribe
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -214,6 +236,8 @@
 
       </div>
     </div>
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
 </body>
 
 </html>
